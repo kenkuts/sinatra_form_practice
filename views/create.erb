@@ -1,0 +1,24 @@
+<form method="POST" action="/new_character">
+  <label id="name">Name:</label>
+  <input name="hero[name]" id="name">
+  <br>
+  <label id="gender">Gender:</label>
+  <input name="hero[gender]" id="gender">
+  <br>
+  <label id="ht">Hometown:</label>
+  <input name="hero[hometown]" id="ht">
+  <br>
+  <label id="power1">Power 1:</label>
+  <input name="hero[power][][name]" id="power1">
+  <br>
+  <label id="type1">Type:</label>
+  <input name="hero[power][][type]" id="type1">
+  <br>
+  <label id="power2">Power 2:</label>
+  <input name="hero[power][][name]" id="power2">
+  <br>
+  <label id="type2">Type:</label>
+  <input name="hero[power][][type]" id="type2">
+  <br>
+  <input type="submit" value="Create Hero">
+</form>

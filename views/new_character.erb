@@ -1,0 +1,10 @@
+<p>New Hero Profile</p>
+<p>Name: <%= @hero.name %></p>
+<p>Gender: <%= @hero.gender %> </p>
+<p>Hometown: <%= @hero.hometown %> </p>
+
+<% @power.each do |power| %>
+<p>Power: <%= power.name %> </p>
+<p>Type: <%= power.type %> </p>
+<% end %>
+<% @power.clear %>
